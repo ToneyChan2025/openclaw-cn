@@ -7,4 +7,9 @@ const withNextra = nextra({
 
 module.exports = withNextra({
   reactStrictMode: true,
+  output: 'export',
+  distDir: 'dist',
+  images: {
+    unoptimized: true,
+  },
 })
