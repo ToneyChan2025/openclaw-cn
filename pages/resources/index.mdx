@@ -1,0 +1,23 @@
+import { TwoPaneLayout } from '../../components/layouts/two-pane-layout'
+
+<TwoPaneLayout
+  title="资源分类目录"
+  description="聚合优质 OpenClaw 学习资源，按平台与用途组织。"
+  items={[
+    { title: '资源总览', href: '/resources', description: '资源使用说明' },
+    { title: 'Skills', href: '/resources/skills', description: '可复用技能包' },
+    { title: 'GitHub', href: '/resources/github', description: '仓库与示例项目' },
+    { title: '云服务器', href: '/resources/cloud', description: '部署与运维指南' },
+    { title: 'B站', href: '/resources/bilibili', description: '视频教程与实战演示' },
+    { title: 'X', href: '/resources/x', description: '一手动态与高质量线程' }
+  ]}
+>
+  <h1>资源中心总览</h1>
+  <p>这一部分是站点核心模块，后续逐步填充精选资源并持续更新。</p>
+  <h2>资源筛选标准（占位）</h2>
+  <ul>
+    <li>可复现</li>
+    <li>有实战价值</li>
+    <li>更新活跃</li>
+  </ul>
+</TwoPaneLayout>

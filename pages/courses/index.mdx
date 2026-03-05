@@ -1,0 +1,32 @@
+import { TwoPaneLayout } from '../../components/layouts/two-pane-layout'
+
+<TwoPaneLayout
+  title="基础课程目录"
+  description="MVP 只上线基础篇，后续逐步补齐 7 天内容。"
+  items={[
+    {
+      title: '课程总览',
+      href: '/courses',
+      description: '课程目标与学习方式'
+    },
+    {
+      title: 'Day 1：入门准备',
+      href: '/courses/getting-started',
+      description: '环境与核心概念预热'
+    },
+    {
+      title: 'Day 2：基础工作流',
+      href: '/courses/workflow-basics',
+      description: '第一个可运行流程'
+    }
+  ]}
+>
+  <h1>基础课程总览</h1>
+  <p>这一部分用于承载 OpenClaw 零基础教学。当前先搭建结构，后续填充每课完整内容。</p>
+  <h2>学习目标</h2>
+  <ul>
+    <li>理解 OpenClaw 基础概念</li>
+    <li>完成单 Agent 工作流搭建</li>
+    <li>具备基础调试能力</li>
+  </ul>
+</TwoPaneLayout>
